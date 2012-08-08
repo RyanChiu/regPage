@@ -1,0 +1,8 @@
+The core technique here is that we use the "formmail.php" script to send mails by all the form fields contents automatically.
+And we optimized the "formmail.php" into "memeber_apply.php" that it could send mails by GMAIL mailing system, that could avoid
+our out emails be "spammed".
+The key files are:
+MerchantRegistration.htm--hold all the fields that could be sent by member_apply.php
+memeber_apply.php--optimized from "formmail.php" script, and will send email by GMAIL mailing system
+thanks.html--will show right after an email was successfully sent out
+error.html--will show right after there is any error while sending an email out

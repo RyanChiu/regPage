@@ -1,0 +1,530 @@
+<html><h1>The H1 tag looks like this</h1>
+<p>The paragraph tag after an H1 tag looks like this</p>
+<h2>The H2 tag looks like this</h2>
+<p>The paragraph tag after an H2 tag looks like this</p>
+<h3>The H3 tag looks like this</h3>
+<p>The paragraph tag after an H3 tag looks like this</p>
+<h4>The H4 tag looks like this</h4>
+<p>The paragraph tag after an H4 tag looks like this</p>
+<h5>The H5 tag looks like this</h5>
+<p>The paragraph tag after an H5 tag looks like this</p>
+<ol>
+<li><strong>This is a strong element in an ordered list</strong></li>
+<li><i>This is an italic element in an ordered list</i></li>
+<li><b>This is a bold element in an ordered list</b></li>
+<li><em>This is an emphasized element in an ordered list</em></li>
+<li>This is a regular element in an ordered list</li>
+</ol>
+<ul>
+<li><strong>This is a strong element in an unordered list</strong></li>
+<li><i>This is an italic element in an unordered list</i></li>
+<li><b>This is a bold element in an unordered list</b></li>
+<li><em>This is an emphasized element in an unordered list</em></li>
+<li>This is a regular element in an unordered list</li>
+</ul>
+<blockquote>The block quote element looks like this</blockquote>
+<pre>The pre element looks like this</pre>
+<code>The code element looks like this</code>
+<br/>
+<span>The span element looks like this</span>
+<br/>
+<a href="#">The anchor element looks like this</a>
+<br/>
+<br/>
+<div style="float:left;margin:20px;width:200px;">Text inside a div that is 200 pixels wide looks like this.  Text inside a div that is 200 pixels wide looks like this.  Text inside a div that is 200 pixels wide looks like this.  Text inside a div that is 200 pixels wide looks like this.  Text inside a div that is 200 pixels wide looks like this.  Text inside a div that is 200 pixels wide looks like this.  Text inside a div that is 200 pixels wide looks like this.  Text inside a div that is 200 pixels wide looks like this.  Text inside a div that is 200 pixels wide looks like this.  Text inside a div that is 200 pixels wide looks like this.</div>
+<div style="float:left;margin:20px;width:400px;">Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.  Text inside a div that is 400 pixels wide looks like this.</div>
+<div style="float:left;margin:20px;width:600px;">Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.  Text inside a div that is 600 pixels wide looks like this.</div><style>@charset "UTF-8";
+/* created by Jill Chu @ lyris {jchu@lyris.com} */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+#wrap {
+	background:top;
+	width:983px;
+	margin-right: auto;
+	margin-bottom: 30px;
+	margin-left: auto;
+	}
+
+body {
+	background-image:url(../images/pattern.gif);
+	background-repeat:repeat;
+	}
+
+/* typography style*/
+
+h1 {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:1.4em;
+	color:#EAE54E;
+	font-weight:bold;
+	}
+
+h2 {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:1.2em;
+	color:#51701C;
+	font-weight:bold;
+	
+	}
+
+h3 {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:0.9em;
+	color:606060;
+	
+	}
+	
+p {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:0.9em;
+	color:58595B;
+	line-height: 18px;
+	}
+	
+strong {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:1em;
+	font-style:normal;
+	color:#A58900;
+	font-weight:bold;
+	}
+	
+a {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:1.0em;
+	color:#A58900;
+	}
+
+a:hover {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:1.0em;
+	color:#51701C
+	}
+
+ul {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 0.9em;
+	line-height: 1.6em;
+	padding-left: 30px;
+	list-style-type: none;
+}
+
+li {
+	background: url(../images/bullet.png) left center no-repeat;
+	list-style-position: outside;
+	padding-left:15px;}
+	
+	
+/* main content */
+
+#content-container {
+	width:963px;
+	
+	}
+
+#top {
+	background-image:url(../images/top-expand.png);
+	background-repeat:repeat-y;
+	width:873px;
+	height:auto;
+	padding-left: 60px;
+	padding-right: 30px;
+	background-color: #5C7834;
+	}
+
+#top-corner {
+	background-image:url(../images/top-corner.png);
+	height:29px;
+	width: 963px;
+	background-repeat: no-repeat;
+	}
+
+#top-container {
+	width:auto;
+	height: 75px;
+	padding-top: 30px;
+	padding-right: 0px;
+	padding-bottom: 0;
+}
+
+
+#logo {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#FFF;
+	font-size:3em;
+	float: left;
+	}
+#header-txt {
+	padding:30px;}
+#top-nav {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 0.9em;
+	font-weight: bold;
+	color:#eae54e;
+	float:right;
+	text-align: right;
+	text-decoration: none;
+	}
+
+#top-nav a {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 0.9em;
+	font-weight: bold;
+	color:#eae54e;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #FC0;
+	}
+
+#top-nav a:hover {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 0.9em;
+	font-weight: bold;
+	color: #C00;
+	text-decoration: none;
+	}
+
+
+	
+#bkg-yellow {
+	background-color:#eae54e;
+	background-image: url(../images/bkg-yellow.png);
+	background-repeat: repeat-y;
+	width: 963px;
+	float: left;
+	height: auto;
+	}
+.bkg-yellow-ptn {
+	background-image:url(../images/bkg-yellow-pattern.png);
+	background-repeat:no-repeat;
+	height: 186px;
+	width: 480px;
+	z-index: 2;
+	}
+.bkg-yellow-ptn1 {
+	background-image:url(../images/bkg-yellow-pattern.png);
+	background-repeat:no-repeat;
+	height: auto;
+	width: 880px;
+	padding-left: 60px;
+	z-index: 2;
+	}
+.img-1 {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:0.8em;
+	font-style:italic;
+	width:255px;
+	height:230px;
+	float: right;
+	padding-right: 80px;
+	z-index: 3;
+	padding-top: 12px;
+	}
+
+.img-2 {
+	width:109px;
+	height:82px;
+	}
+
+#left-col {
+	width:359px;
+	float:left;
+	padding-left: 60px;
+	height: auto;
+	padding-bottom: 20px;
+	}
+
+#right-col {
+	width:469px;
+	float:left;
+	z-index: 1;
+	}
+
+/*form starts here*/
+#form {
+	width:320px;
+	padding-left:0px;
+	padding-top: 20px;
+	 }
+select, checkbox {
+	color:#660;
+	background: #FFFFFF;
+}
+label {
+	display: block;
+	float: left;
+	width: 125px;
+}
+form {
+	/*width: 820px;*/
+	padding: 8px;
+}
+/*
+form div {
+	margin-top: 8px;
+}
+*/
+.fieldset_area {
+	padding: 10px;
+	width: 590px;
+	height: 380px;
+	background-color: #D3C305;
+	font-size: 0.8em;
+	font-weight: bold;
+	color: #FFF;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	border: 0;
+}
+.fieldset_area1 {
+	padding: 10px;
+	width: 590px;
+	height: 950px;
+	background-color: #D3C305;
+	font-size: 0.8em;
+	font-weight: bold;
+	color: #FFF;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	border: 0;
+}
+.field_explanation {
+	float:left;
+	margin-top:0px;
+	margin-left:125px;
+	margin-right:5px;
+	margin-bottom:0px;
+	width:460px;
+	font-size:9px;
+}
+.field_explanation_short {
+	float:left;
+	margin-top:0px;
+	margin-right:5px;
+	margin-bottom:0px;
+	width:115px;
+	font-size:9px;
+}
+.form-item {
+	float: left;
+	width: 580px;
+	height: auto;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	border-bottom: dashed;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #666666;
+}
+
+.button {
+	background-image: url(../images/btn.png);
+	height: 27px;
+	width: 73px;
+}
+input:focus, select:focus, checkbox:focus, textarea:focus {
+	color: #698336;
+	background-color: #FFC;
+}
+
+#container {
+	width: 330px;
+}
+
+/*form ends here*/
+
+/*white pattern*/
+#bkg-white {
+	background-image: url(../images/bkg-white-pattern.png);
+	height: auto;
+	width: 903px;
+	padding-top: 20px;
+	padding-left: 60px;
+	float: left;
+}
+
+#left-col-white {
+	width:410px;
+	float:left;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	}
+
+#right-col-white {
+	width:430px;
+	float:left;
+	padding-bottom: 10px;
+	}
+
+/*green*/
+#bkg-green {
+	background-image: url(../images/bkg-green-2.png);
+	height: auto;
+	width: 879px;
+	padding-top: 20px;
+	float: left;
+	padding-left: 60px;
+	padding-bottom: 20px;
+	padding-right: 25px;
+}
+
+#bkg-green p {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:0.9em;
+	color:#d1d1d1;
+	}
+/*green ends*/
+#bkg-white-plain {
+	background-image:url(../images/bkg-white.png);
+	background-repeat:repeat-y;
+	width: 903px;
+	height: auto;
+	float: left;
+	padding-left: 60px;
+}
+
+
+#left-col-white-bottom {
+	width:440px;
+	float:left;
+	padding-top: 15px;
+	}
+
+#right-col-white-bottom {
+	width:419px;
+	padding-left: 30px;
+	padding-right: 10px;
+	float:left;
+	padding-top: 15px;
+	padding-bottom: 8px;
+	}
+
+/*table*/
+#table {
+	width: 380px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #477207;
+	border-right-color: #477207;
+	border-bottom-color: #477207;
+	border-left-color: #477207;
+	vertical-align: top;
+		}
+
+#table p {
+	clear: both;
+	width: 100%;
+	margin: 0;
+		}
+#table span {
+	float: left;
+	padding: 15px 10px;
+		}
+	
+
+#table span.col1 {
+	width: 90px;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #50701B;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-top-color: #FFF;
+	border-right-color: #FFF;
+	border-bottom-color: #FFF;
+	border-left-color: #FFF;
+	height: 15px;
+		}
+
+#table span.col2 {
+	width: 246px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.9em;
+	color: #333;
+	background-color: #FFF;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #FFF;
+	height: 16px;
+		}
+	
+caption {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:1.2em;
+	color:#51701C;
+	font-weight:bold;
+	text-align:left;
+	}
+/*end of table*/
+
+	/*email marketing you can trust*/
+
+#external-link {
+	fofont-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:12px; color:#fff;
+	margin:15px;
+	width: 200px;
+	height:20px;
+	}
+#external-link a {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #fff;
+}
+#external-link a:hover {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #50701B;
+}	
+
+/* footer starts */
+#footer {
+	background-image:url(../images/footer.png);
+	width: 100%;
+	height:43px;
+	float: left;
+	padding-left: 60px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666;
+	background-repeat: no-repeat;
+	}
+
+#footer-nav {
+	font-family: Tahoma, Geneva, sans-serif;
+	width: 100%;
+	font-size: 12px;
+	color: #930;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</style></html>
