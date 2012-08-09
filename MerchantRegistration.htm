@@ -373,11 +373,21 @@
 			
 			<DIV class="form-item">
 				<LABEL>Bank wire information</LABEL>
-				<TEXTAREA name="bankwire" rows="5" wrap="true" cols="35" class="form-textarea"></TEXTAREA>
-			</DIV>	
+				<TEXTAREA id="textBankInfo" name="bankwire" rows="7" wrap="true" cols="39" class="form-textarea"></TEXTAREA>
+			</DIV>
+			<script type="text/javascript">
+				$("#textBankInfo").val(
+					"Bank name:______________" + "\n"
+					+ "Bank FULL address:_______" + "\n"
+					+ "Bank SWIFT code:_________" + "\n"
+					+ "Name on the  Account:_____" + "\n"
+					+ "Account #:_______________" + "\n"
+					+ "\nIntermediary bank info., if needed:\n"
+				);
+			</script>
 			<DIV class="form-item">
 				<LABEL style="font-weight:normal;">Instant Messengers</LABEL>
-				<TEXTAREA name="mmessage" rows="5" wrap="true" cols="35" class="form-textarea"></TEXTAREA>
+				<TEXTAREA name="mmessage" rows="5" wrap="true" cols="39" class="form-textarea"></TEXTAREA>
 				<div class="field_explanation">
 					If you use IMs such as MSN, Yahoo, Skype or ICQ, please specify your IM type and username here for speedier communications.
 				</div>
