@@ -371,20 +371,36 @@
 				</DIV>
 			</DIV>	
 			
-			<DIV class="form-item">
+			<DIV class="form-item" style="height: 270px;">
 				<LABEL>Bank wire information</LABEL>
-				<TEXTAREA id="textBankInfo" name="bankwire" rows="7" wrap="true" cols="39" class="form-textarea"></TEXTAREA>
+				<div style="float: right; width: 420px;">
+				    <label style="width:150px; float:left; font-weight: normal;">Bank name</label>
+				    <INPUT style="width:230px; float:left;" type="text" name="bank_name" value="" maxlength="100">
+				    <br/><br/>
+				    <label style="width:150px; float:left; font-weight: normal;">Street Name, building #</label>
+                    <INPUT style="width:230px; float:left;" type="text" name="bank_streenamebuildingno" value="" maxlength="100">
+                    <br/><br/>
+                    <label style="width:150px; float:left; font-weight: normal;">City</label>
+                    <INPUT style="width:230px; float:left;" type="text" name="bank_city" value="" maxlength="100">
+                    <br/><br/>
+                    <label style="width:150px; float:left; font-weight: normal;">Province</label>
+                    <INPUT style="width:120px; float:left;" type="text" name="bank_province" value="" maxlength="100">
+                    <label style="width:50px; float: left; margin-left: 6px; font-weight: normal;">zip code</label>
+                    <INPUT style="width:50px; float:left;" type="text" name="bank_zipcode" value="" maxlength="50">
+                    <br/><br/>
+                    <label style="width:150px; float:left; font-weight: normal;">Country</label>
+                    <INPUT style="width:230px; float:left;" type="text" name="bank_country" value="" maxlength="100">
+                    <br/><br/>
+                    <label style="width:150px; float:left; font-weight: normal;">SWIFT Code</label>
+                    <INPUT style="width:230px; float:left;" type="text" name="bank_swiftcode" value="" maxlength="100">
+                    <br/><br/>
+                    <label style="width:150px; float:left; font-weight: normal;">Account name</label>
+                    <INPUT style="width:230px; float:left;" type="text" name="bank_accountname" value="" maxlength="100">
+                    <br/><br/>
+                    <label style="width:150px; float:left; font-weight: normal;">Account#</label>
+                    <INPUT style="width:230px; float:left;" type="text" name="bank_accountno" value="" maxlength="100">
+				</div>
 			</DIV>
-			<script type="text/javascript">
-				$("#textBankInfo").val(
-					"Bank name:______________" + "\n"
-					+ "Bank FULL address:_______" + "\n"
-					+ "Bank SWIFT code:_________" + "\n"
-					+ "Name on the  Account:_____" + "\n"
-					+ "Account #:_______________" + "\n"
-					+ "\nIntermediary bank info., if needed:\n"
-				);
-			</script>
 			<DIV class="form-item">
 				<LABEL style="font-weight:normal;">Instant Messengers</LABEL>
 				<TEXTAREA name="mmessage" rows="5" wrap="true" cols="39" class="form-textarea"></TEXTAREA>
