@@ -5170,17 +5170,34 @@ function DoMail($s_to,$s_subject,$s_mesg,$a_headers,$s_options)
         	 * HARD CODES ADDED BY ZR HERE.
         	 * IN ORDER TO MAKE THIS SCRIPT COULD SEND EMAIL THROUGH GMAIL SERVER.
         	*/
+        	/*
         	$mailer = Mail::factory(
       			'smtp',
-						array (
-							'host' => "ssl://smtp.gmail.com",
-							'port' => "465",
-							'auth' => true,
-							'username' => "agents.maintainer@gmail.com",
-							'password' => "`1qaz2wsx"
-						)
-					);
-					$a_headers['From'] = "agents.maintainer@gmail.com";
+				array (
+					'host' => "ssl://smtp.gmail.com",
+					'port' => "465",
+					'auth' => true,
+					'username' => "agents.maintainer@gmail.com",
+					'password' => "`1qaz2wsx"
+				)
+			);
+			$a_headers['From'] = "agents.maintainer@gmail.com";
+			*/
+			/*
+			 * HARD CODES ADDED BY ZR HERE.
+			* IN ORDER TO MAKE THIS SCRIPT COULD SEND EMAIL THROUGH GODADDY SERVER.
+			*/
+			$mailer = Mail::factory(
+				'smtp',
+				array (
+						'host' => "smtpout.secureserver.net",
+						'port' => "25",
+						'auth' => true,
+						'username' => "support@chatvazoo.com",
+						'password' => "`Adutta11"
+				)
+			);
+			$a_headers['From'] = "support@chatvazoo.com";
         	
         if (!is_object($mailer))
         {
