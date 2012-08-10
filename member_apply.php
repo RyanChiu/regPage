@@ -5166,13 +5166,12 @@ function DoMail($s_to,$s_subject,$s_mesg,$a_headers,$s_options)
         }
         //$mailer = Mail::factory("smtp",$a_params);
         	
-        	/*
-        	 * HARD CODES ADDED BY ZR HERE.
-        	 * IN ORDER TO MAKE THIS SCRIPT COULD SEND EMAIL THROUGH GMAIL SERVER.
-        	*/
-        	/*
-        	$mailer = Mail::factory(
-      			'smtp',
+        		/*
+        		 * HARD CODES ADDED BY ZR HERE.
+        		 * IN ORDER TO MAKE THIS SCRIPT COULD SEND EMAIL THROUGH GMAIL SERVER.
+        		*/
+        		$mailer = Mail::factory(
+      				'smtp',
 				array (
 					'host' => "ssl://smtp.gmail.com",
 					'port' => "465",
@@ -5182,22 +5181,24 @@ function DoMail($s_to,$s_subject,$s_mesg,$a_headers,$s_options)
 				)
 			);
 			$a_headers['From'] = "agents.maintainer@gmail.com";
-			*/
+
 			/*
 			 * HARD CODES ADDED BY ZR HERE.
 			* IN ORDER TO MAKE THIS SCRIPT COULD SEND EMAIL THROUGH GODADDY SERVER.
 			*/
+			/*
 			$mailer = Mail::factory(
 				'smtp',
 				array (
-						'host' => "smtpout.secureserver.net",
-						'port' => "25",
-						'auth' => true,
-						'username' => "support@chatvazoo.com",
-						'password' => "`Adutta11"
+					'host' => "ssl://smtpout.secureserver.net",
+					'port' => "465",
+					'auth' => true,
+					'username' => "support@chatvazoo.com",
+					'password' => "`Adutta111"
 				)
 			);
 			$a_headers['From'] = "support@chatvazoo.com";
+			*/
         	
         if (!is_object($mailer))
         {
@@ -5226,7 +5227,7 @@ function DoMail($s_to,$s_subject,$s_mesg,$a_headers,$s_options)
         	$___a_headers___['Subject'] = 'Thank you for your application - ChatVaZoo';
         	$___s_msg___ = "Dear applicant:" . "\n\n"
         		. "Welcome to ChatVaZoo, your application to ChatVaZoo.com was succsessful, thank you." . "\n"
-        		. "You will be contacted, with the approval or disapproval, and further instructions within one week of your application." . "\n\n"
+        		. "You will be contacted, with the approval or disapproval, and further instructions within 48 hours of your application." . "\n\n"
         		. "Thank you." . "\n\n"
         		. "ChatVaZoo Admin";
         	$___res___ = $mailer->send($___a_headers___['To'], $___a_headers___, $___s_msg___);
